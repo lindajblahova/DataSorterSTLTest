@@ -1,7 +1,18 @@
 #include "pch.h"
-#include "CriterionTest.h"
 
 #include "../DataSortingApp/Criterion/Criterion.cpp"
+#include "../DataSortingApp/Criterion/Criterion.h"
+#include "TerritorialUnitTest.h"
+
+class CriterionTest : public TerritorialUnitTest {
+protected:
+	void SetUp() override {
+		m_criterion = std::make_unique<Criterion>();
+	}
+
+	std::unique_ptr<ICriterion> m_criterion;
+
+};
 
 // constructor of criterion
 TEST_F(CriterionTest, EvaluateTerritorialUnit) {

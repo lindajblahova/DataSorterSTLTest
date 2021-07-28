@@ -1,51 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="ComparatorTest.cpp">
-      <Filter>ComparatorTest</Filter>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="FilterTest.cpp">
+      <Filter>FilterTest</Filter>
     </ClCompile>
     <ClCompile Include="CriterionTest.cpp">
       <Filter>CriterionTest</Filter>
     </ClCompile>
-    <ClCompile Include="FilterTest.cpp">
-      <Filter>FilterTest</Filter>
+    <ClCompile Include="ComparatorTest.cpp">
+      <Filter>ComparatorTest</Filter>
     </ClCompile>
     <ClCompile Include="TerritorialUnitTest.cpp">
       <Filter>TerritorialUnitTest</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp" />
-    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComparatorTest.h">
-      <Filter>ComparatorTest</Filter>
-    </ClInclude>
-    <ClInclude Include="CriterionTest.h">
-      <Filter>CriterionTest</Filter>
-    </ClInclude>
-    <ClInclude Include="FilterTest.h">
-      <Filter>FilterTest</Filter>
-    </ClInclude>
+    <ClInclude Include="pch.h" />
     <ClInclude Include="TerritorialUnitTest.h">
       <Filter>TerritorialUnitTest</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="CriterionTest">
-      <UniqueIdentifier>{79857ec5-a68d-4f83-ba82-f5544fc635fe}</UniqueIdentifier>
-    </Filter>
     <Filter Include="TerritorialUnitTest">
-      <UniqueIdentifier>{b99c8a80-80a6-4799-9005-b75a370eb06f}</UniqueIdentifier>
+      <UniqueIdentifier>{012d92ce-9799-49fc-a777-fd8eff0741b0}</UniqueIdentifier>
     </Filter>
     <Filter Include="FilterTest">
-      <UniqueIdentifier>{3c5b2f15-ae74-48ed-920e-80426ca581a8}</UniqueIdentifier>
+      <UniqueIdentifier>{20e70273-0908-4371-9545-81d1cbdc318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CriterionTest">
+      <UniqueIdentifier>{aaa7f5a1-7b1f-41b3-8973-e8426b1a6332}</UniqueIdentifier>
     </Filter>
     <Filter Include="ComparatorTest">
-      <UniqueIdentifier>{9dd4919a-cf24-4db5-8204-f3b318c3493f}</UniqueIdentifier>
+      <UniqueIdentifier>{6497994e-4085-4fa2-b514-8f4f3a69b9d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
